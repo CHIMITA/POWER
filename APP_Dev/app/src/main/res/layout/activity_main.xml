@@ -46,7 +46,7 @@
     </LinearLayout>
 
     <ImageButton
-        android:id="@+id/Z_testGO"
+        android:id="@+id/z_testgo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -55,7 +55,7 @@
         android:layout_marginRight="15dp"
         android:layout_marginTop="5dp"
         android:background="@drawable/round_btn"
-        android:src="@drawable/Z_GO"/>
+        android:src="@drawable/stoory1"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -85,7 +85,7 @@
     </LinearLayout>
 
         <ImageButton
-            android:id="@+id/Y_testGO"
+            android:id="@+id/y_testgo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:scaleType="fitXY"
@@ -93,7 +93,7 @@
             android:layout_marginRight="15dp"
             android:layout_marginTop="5dp"
             android:background="@drawable/round_btn"
-            app:srcCompat="@drawable/YOU_GO" />
+            app:srcCompat="@drawable/story2" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -106,15 +106,7 @@
         android:textStyle="bold" />
 
 
-        <ImageButton
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:scaleType="centerCrop"
-            android:layout_marginLeft="20dp"
-            android:src="@drawable/Story_001"
-            android:background="@mipmap/ic_launcher_round">
 
-        </ImageButton>
 
 
 

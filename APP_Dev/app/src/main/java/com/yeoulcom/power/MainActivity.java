@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Ibtn_Z = findViewById(R.id.Z_testGO);
+        Ibtn_Z = findViewById(R.id.z_testgo);
         Ibtn_Z.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Ibtn_Y = findViewById(R.id.Y_testGO);
+        Ibtn_Y = findViewById(R.id.y_testgo);
         Ibtn_Y.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
