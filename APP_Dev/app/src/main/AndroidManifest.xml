@@ -19,6 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Z_TestActivity"></activity>
+        <activity android:name=".Y_TestActivity"></activity>
     </application>
 
 </manifest>
