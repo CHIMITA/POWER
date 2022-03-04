@@ -4,7 +4,7 @@
     android:layout_height="match_parent">
 
     <solid
-        android:color="#BBCAFF"/>
+        android:color="#FFFFFF"/>
 
     <corners
         android:topLeftRadius="18dp"
