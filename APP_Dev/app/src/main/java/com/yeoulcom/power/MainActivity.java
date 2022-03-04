@@ -2,14 +2,17 @@ package com.yeoulcom.power;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
     Button button;
+    ImageButton Ibtn_Z, Ibtn_Y;
     ImageView imageView;
 
     @Override
@@ -17,11 +20,27 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        button = findViewById(R.id.Z_GOBtn);
-        imageView = findViewById(R.id.BackImg);
+        Ibtn_Z = findViewById(R.id.Z_testGO);
+        Ibtn_Z.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),Z_TestActivity.class);
+                startActivity(intent);
+            }
+        });
 
+        Ibtn_Y = findViewById(R.id.Y_testGO);
+        Ibtn_Y.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),Y_TestActivity.class);
+                startActivity(intent);
+            }
+        });
 
 
     }
+
+
 
 }
